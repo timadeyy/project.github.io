@@ -1,0 +1,62 @@
+
+body {
+  font-family: "Courier New", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: rgb(44, 44, 44);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 750px;
+}
+
+.link-info {
+  color: gray;
+  text-decoration: none;
+}
+
+.link-info:hover {
+  text-decoration: underline;
+}
+
+.table {
+  width: 45%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+
+.table-header, .table-cell {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  text-align: left;
+}
+
+.text {
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .title {
+      text-align: center;
+  }
+
+  .image {
+      max-width: 300px;
+      max-height: 300px;
+  }
+
+  .table {
+      width: 100%;
+  }
+}

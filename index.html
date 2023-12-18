@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Програміст</title>
+</head>
+<body class="background">
+
+    <div class="container">
+
+        <h1 class="title">Подальший розвиток у бізнес аналітиці</h1>
+
+        <p class="paragraph">На зображенні університет який допомагає розвиватися у цих напрямках</p>
+
+        <a href="https://university.kse.ua" target="_blank"><img src="IMG/КШЕ.jpg" alt="КШЕ" class="image"></a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="table-header">№</th>
+                    <th class="table-header">Назва предмету</th>
+                    <th class="table-header">Кількість годин</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table-cell">1</td>
+                    <td class="table-cell"><a href="Project 2.html">Математика</a></td>
+                    <td class="table-cell">10</td>
+                </tr>
+                <tr>
+                    <td class="table-cell">2</td>
+                    <td class="table-cell">Англ. Мова</td>
+                    <td class="table-cell">12</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <marquee><a href="https://dou.ua/lenta/articles/become-business-analyst/" class="link-info" target="_blank">Бізнес аналітика це круто</a></marquee>
+        <p class="text">Дізнайтеся більше про цю професію </p>
+
+    </div>
+    <script>
+        function askName() {
+        let name;
+        do {
+            name = prompt('Введіть своє ім\'я');
+            if (name === null || name === '') {
+                alert("Будь ласка, введіть своє ім'я для продовження.");
+            }
+        } while (name === null || name === '');
+
+        alert("Вітаю, " + name + ", на моїй сторінці!");
+    }
+
+    window.onload = askName;
+    </script>
+</body>
+</html>
